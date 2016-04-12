@@ -1,0 +1,18 @@
+{
+	"manifest_version": 2,
+	"name": "Baby To Babby",
+	"version": "1.0",
+	"description": "Replaces the text 'baby' with 'babby', as well as 'babies' with 'babbies'.",
+	"content_scripts": 
+	[
+		{
+			"matches": ["*://*/*"],
+			"js": ["content_script.js"],
+			"run_at": "document_end"
+		}
+	],
+        "icons": { "16": "babby16.png",
+                   "48": "babby48.png",
+                   "128": "babby128.png" }
+}
+
