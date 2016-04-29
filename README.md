@@ -1,2 +1,2 @@
-# How is babby formed? 
-Drag the .crx file into chrome to find out!
+# Babby's first chrome extension
+A useful addition to any browser.
